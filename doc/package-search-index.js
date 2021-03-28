@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unicam.cs.pa.jbudget105053"},{"l":"it.unicam.cs.pa.jbudget105053.controller"},{"l":"it.unicam.cs.pa.jbudget105053.javafx"},{"l":"it.unicam.cs.pa.jbudget105053.model"},{"l":"it.unicam.cs.pa.jbudget105053.persistence"}]

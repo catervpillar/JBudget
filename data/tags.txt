@@ -1,0 +1,7 @@
+1;SPORT;Articoli per lo sport
+2;ABBIGLIAMENTO;Capi d'abbigliamento e calzature varie
+3;SPESA SUPERMERCATO;Rifornimento al supermercato dei beni di prima necessità
+4;PRELIEVO BANCOMAT;Prelievo di denaro dal conto corrente allo sportello del bancomat
+5;COMMISSIONE;Spese di commissione varie per servizi erogati
+6;ESTINZIONE DEBITO DI GIOCO;Pagamento di una rata del debito di gioco presso il casinò
+7;ACCREDITO STIPENDIO;Accredito dello stipendio mensile

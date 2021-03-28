@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="599.0" styleClass="bodybg" stylesheets="@about_background.CSS" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="WHITE" layoutX="62.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUDGET">
+         <font>
+            <Font name="Corbel Bold" size="48.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="34.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="J">
+         <font>
+            <Font name="Candara Bold" size="70.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="45.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/jbudget_icon.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="278.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JBudget è uno strumento di gestione finanziaria che permette a chiunque di amministrare in maniera rapida ed intuitiva il proprio patrimonio.&#10;Crea molteplici Accounts diversificati per &#10;tipologia (Assets &amp; Liabilities), memorizza spese ed introiti e definisci categorie personalizzate da applicare ad ogni operazione.&#10;Con JBudget puoi monitorare ogni cosa.&#10;E puoi anche salvare tutti i tuoi dati nel pc, dove preferisci, per poi riprendere comodamente da dove avevi lasciato.&#10;Gestire il tuo budget non è mai stato così &#10;semplice!&#10;" textAlignment="JUSTIFY" wrappingWidth="292.8125">
+         <font>
+            <Font name="Segoe UI Semilight" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="154.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VERSIONE 1.0.1">
+         <font>
+            <Font name="Segoe UI Semilight" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

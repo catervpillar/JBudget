@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseMoved="#populateChoiceBoxAction" prefHeight="401.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="405.0" prefWidth="387.0">
+         <children>
+            <Label fx:id="tagNameLabel" layoutX="14.0" layoutY="68.0" text="Seleziona un tag tra&#10;quelli nella lista:*">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Button fx:id="abortButton" layoutX="14.0" layoutY="326.0" mnemonicParsing="false" onAction="#abortAction" prefHeight="31.0" prefWidth="90.0" text="Annulla">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text layoutX="14.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modifica Tag">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <ChoiceBox fx:id="tagChoiceBox" layoutX="192.0" layoutY="76.0" onMouseClicked="#populateChoiceBoxAction" prefHeight="25.0" prefWidth="255.0" />
+            <Text layoutX="335.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Campi obbligatori">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </Text>
+            <Button fx:id="modifyButton" layoutX="340.0" layoutY="326.0" mnemonicParsing="false" onAction="#executeAction" text="Modifica Tag">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="newNameLabel" layoutX="14.0" layoutY="128.0" text="Inserisci un nuovo nome:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="newNameTextField" layoutX="192.0" layoutY="126.0" prefHeight="25.0" prefWidth="255.0" />
+            <Label fx:id="newDescriptionLabel" layoutX="14.0" layoutY="169.0" text="Inserisci una nuova descrizione:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="newDescriptionTextArea" layoutX="14.0" layoutY="192.0" prefHeight="82.0" prefWidth="432.0" />
+         </children>
+      </AnchorPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
